@@ -1,0 +1,6 @@
+1. Multiple Sessions
+    Client: One user can create or join multiple sessions, /list displays all sessions users have joined. /switchsession <session id> switches between sessions
+    Server: Keeps track of a list of all the sessions each user's in
+2. Session Invites
+    Client: Users are able to invite each other to sessions using /invite <username> <session id>
+    Server: If accepted, add the session id to user's session list
